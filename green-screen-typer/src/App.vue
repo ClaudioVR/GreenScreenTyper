@@ -1,6 +1,6 @@
 <template>
   <v-app>
-    <v-navigation-drawer
+    <!-- <v-navigation-drawer
       v-model="drawer"
       app
       color="black"
@@ -32,7 +32,7 @@
       dark
     >
       <v-app-bar-nav-icon color="green" @click.stop="drawer = !drawer"></v-app-bar-nav-icon>
-    </v-app-bar>
+    </v-app-bar> -->
 
     <v-content>
       <HelloWorld/>
